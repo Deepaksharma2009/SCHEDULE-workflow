@@ -1,4 +1,4 @@
-name: Schedule jobs:
+name: Schedule Jobs
 
 on:
   schedule:
@@ -6,8 +6,9 @@ on:
 
 jobs:
   run-script:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Print Message
         run: echo "Schedule workflow executed"
+
